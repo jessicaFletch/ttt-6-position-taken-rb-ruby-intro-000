@@ -4,12 +4,12 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 def position_taken? (board, index)
   if board && index[0] =="nil"
-    puts "X"
+    return false 
   
   elsif board && index[0] == " "
-    puts "X"
+    return false 
   else 
-    puts "choose again"
+    puts true 
     
   
  end
