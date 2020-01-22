@@ -1,0 +1,4 @@
+
+
+board = []
+index = 0 
