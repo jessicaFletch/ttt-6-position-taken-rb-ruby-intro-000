@@ -1,3 +1,5 @@
+request_relative './spec/position_taken_spec.rb'
+
 
  
 
