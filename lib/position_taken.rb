@@ -2,8 +2,8 @@
 
 board = [" "," "," "," "," "," "," "," "," "]
 
-def position_taken? (board, index)
-  if board && index[0] =="nil"
+def position_taken?(board, index)
+  if board, index[0] =="nil"
     return false 
   
   elsif board && index[0] == " "
