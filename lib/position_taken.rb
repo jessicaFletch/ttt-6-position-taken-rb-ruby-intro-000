@@ -1,10 +1,13 @@
 # code your #position_taken? method here!
-
+board = [" "," "," "," "," "," "," "," "," "]
 
 def position_taken? (board, index)
-  if board[0] == "   "
+  if board, index[0] ==""
+    puts 
+  
+  elsif board, index[0] == " "
     puts "X"
-  elsif board[0] ="X"
-   puts "choose again"
+    
+  
  end
  end
