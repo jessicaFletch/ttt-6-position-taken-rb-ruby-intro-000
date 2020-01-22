@@ -1,5 +1,5 @@
 # code your #position_taken? method here!
-
+=begin
 board = [" "," "," "," "," "," "," "," "," "]
 
 def position_taken?(board, index)
@@ -15,3 +15,10 @@ def position_taken?(board, index)
  end
  end
  =end
+ 
+ 
+   ! (board[index] ==  " " || board[index] == "" || board[index] == nil) 
+end
+
+  ! (board[index] ==  " " || board[index] == "" || board[index] == nil) 
+end
