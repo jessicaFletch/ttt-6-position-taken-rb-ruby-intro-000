@@ -1,4 +1,4 @@
-request_relative './spec/position_taken_spec.rb'
+require_relative './spec/position_taken_spec.rb'
 
 
  
