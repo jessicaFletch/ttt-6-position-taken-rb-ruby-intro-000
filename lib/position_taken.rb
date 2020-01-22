@@ -1,6 +1,16 @@
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = 0 
+
+
+
+board = ["",""," "," "," "," "," "," ",""]
 
 def position_taken?(board, index)
-  if board [0] == " "
+
+
+   taken = nil
+   if (board[index] ==  " " || board[index] == "" || board[index] == nil)
+     taken = false
+   else
+     taken = true
+  end
+end
